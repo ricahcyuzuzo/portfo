@@ -1,0 +1,40 @@
+*,
+		*::before,
+		*::after{
+			box-sizing: border-box;
+		}
+		body{
+			overflow: none;
+		}
+
+		aside{
+			position: fixed;
+			left: 0;
+			right: 0;
+			width: 100px;
+			height: 100%;
+			background-color: rgb(20,67,27);
+			text-align: center;
+			text-decoration: none;
+		}
+
+		aside a{
+			color: #fff;
+			display: block;
+		}
+		aside a:hover{
+			color: cyan;
+			text-decoration: none;
+			text-decoration-line: none;
+		}
+		aside nav a p{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+
+		aside img{
+			border-radius: 50%;
+			margin-bottom: 100px;
+			margin-top: 10px;
+		}
